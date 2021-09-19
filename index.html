@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/bookmark-page.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <title>Bookmark Landing Page</title>
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+    <!--=========== HEADER ==========-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="" class="nav__logos"><img src="images/logo-bookmark.svg" alt="" class="nav__logo"></a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <a href="" class="nav__logo-second"><img src="images/logo-bookmark.svg" alt=""></a>
+                    <li class="nav__item">
+                        <div class="line"></div>
+                        <a href="#feature" class="nav__link active-link">FEATURES</a>
+                    </li>
+                    <li class="nav__item">
+                        <div class="line"></div>
+                        <a href="#download" class="nav__link">DOWNLOAD</a>
+                    </li>
+                    <li class="nav__item">
+                        <div class="line"></div>
+                        <a href="#contact" class="nav__link">CONTACT</a>
+                    </li>
+                    <li class="nav__item">
+                        <div class="line"></div><br>
+                    </li>
+                    <li class="nav__item">
+                    <a href="#home" class="login__button">Login</a>
+                    </li>
+                    <a href="#" class="nav__exit" id="nav-close"><i class="uil uil-times nav__icon"></i></a>
+                </ul>
+                
+            </div>
+
+            <a href="#nav-menu" class="nav__toggle" id="nav-toggle"><i class="uil uil-apps nav__icon"></i></a>
+            
+        </nav>
+    </header>
+
+    <main class="main">
+    <!--=========== HOME ==========-->
+    <section class="home" id="home">
+        <div class="home__container container grid">
+            <div class="home__content">
+                <div class="home__img">
+                    <img src="images/illustration-hero.svg" alt="" class="img__home">
+                </div>
+                <div class="home__data">
+                    <h1 class="home__title">A Simple Bookmark Manager</h1>
+                    <p class="home__subtitle">A clean and simple interface to organize your favourite websites. Open a new 
+                        browser tab and see your sites load instantly. Try it for free.</p>
+                
+                <div class="home__buttons">
+                    <button class="button__chrome">Get it on Chrome</button>
+                    <button class="button__fire">Get it on Firefox</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--=========== FEATURES ==========-->
+    <section class="feature" id="feature">
+        <div class="feature__container container grid">
+                <h1 class="feature__title">Features</h1>
+                <p class="feature__subtitle">Our aim is to make it quick and easy for you to access your favourite websites. 
+                Your bookmarks sync between your devices so you can access them on the go.</p>
+
+                <div class="feature__features">
+                    <button class="features__button grid__item feature__active" data-target='#bookmark'>Simple Bookmarking
+                        <div class="line__feature"></div>
+                    </button>
+                    
+                    <button class="features__button" data-target='#speed'>Speedy Searching
+                        <div class="line__feature"></div>
+                    </button>
+                    
+                    <button class="features__button" data-target='#easy'>Easy Sharing
+                        <div class="line__feature"></div>
+                    </button>
+                </div>
+            
+                <div class="features__section">
+                    <!--=========== FEATURE 1 ==========-->
+                    <div class="features__content feature__active" data-content id="bookmark">
+                        <div class="feature__data">
+                        <div class="feature___img">
+                        <img src="images/illustration-features-tab-1.svg" alt="" class="features__content-image">
+                        </div>
+                        <div class="feature__info">
+                        <h1 class="features__content-title">Bookmark in one click</h1>
+                        <p class="features__content-subtitle">Organize your bookmarks however you like. Our simple drag-and-drop interface 
+                            gives you complete control over how you manage your favourite sites.</p>
+                            <button class="button__chrome">More info</button>
+                        </div>
+                    </div>
+                </div>
+
+                     <!--=========== FEATURE 2 ==========-->
+                     <div class="features__content" data-content id="speed">
+                        <div class="feature__data">
+                        <div class="feature___img">
+                        <img src="images/illustration-features-tab-2.svg" alt="" class="features__content-image">
+                    </div>
+                    <div class="feature__info">
+                        <h1 class="features__content-title">Intelligent search</h1>
+                        <p class="features__content-subtitle">Our powerful search feature will help you find saved sites in no time at all. 
+                            No need to trawl through all of your bookmarks.</p>
+                            <button class="button__chrome">More info</button>
+                        </div>
+                    </div>
+                </div>
+
+                     <!--=========== FEATURE 3 ==========-->
+                     <div class="features__content" data-content id="easy">
+                        <div class="feature__data">
+                            <div class="feature___img">
+                        <img src="images/illustration-features-tab-3.svg" alt="" class="features__content-image">
+                    </div>
+                    <div class="feature__info">
+                        <h1 class="features__content-title">Share your bookmarks</h1>
+                        <p class="features__content-subtitle">Easily share your bookmarks and collections with others. Create a shareable 
+                            link that you can send at the click of a button.</p>
+                            <button class="button__chrome">More info</button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <!--=========== DOWNLOAD ==========-->
+    <section class="download" id="download">
+            <h1 class="download__title">Download the extension</h1>
+            <p class="download__subtitle">We’ve got more browsers in the pipeline. Please do let us know if you’ve 
+                got a favourite you’d like us to prioritize.</p>
+
+            <div class="download__container container grid">
+
+                <!--=========== DOWNLOAD EXTENSION 1 ==========-->
+                <div class="download__extensions">
+                    <img src="images/logo-chrome.svg" alt="" class="extension__img">
+                    <h1 class="extension__title">Add to Chrome</h1>
+                    <p class="extension__subtitle">Minimum version 62</p>
+                    <img src="images/bg-dots.svg" alt="" class="img__dots">
+                    <button class="button__chromes">Add & Install Extension</button>
+                </div>
+
+                <!--=========== DOWNLOAD EXTENSION 2 ==========-->
+                <div class="download__extensions">
+                    <img src="images/logo-firefox.svg" alt="" class="extension__img">
+                    <h1 class="extension__title">Add to Firefox</h1>
+                    <p class="extension__subtitle">Minimum version 55</p>
+                    <img src="images/bg-dots.svg" alt="" class="img__dots">
+                    <button class="button__chromes">Add & Install Extension</button>
+                </div>
+
+                <!--=========== DOWNLOAD EXTENSION 3 ==========-->
+                <div class="download__extensions">
+                    <img src="images/logo-opera.svg" alt="" class="extension__img">
+                    <h1 class="extension__title">Add to Opera</h1>
+                    <p class="extension__subtitle">Minimum version 46</p>
+                    <img src="images/bg-dots.svg" alt="" class="img__dots">
+                    <button class="button__chromes">Add & Install Extension</button>
+             </div>
+            </div>
+    </section>
+
+    <!--=========== FAQ ==========-->
+    <section class="faq" id="faq">
+        <div class="faq__questions">
+        <h1 class="faq__title">Frequently Asked Questions</h1>
+        <p class="faq__subtitle">Here are some of our FAQs. If you have any other questions you’d like 
+            answered please feel free to email us.</p>
+        </div>
+
+            <div class="faq__container container grid" id="skills-reveal">
+                <!--=========== FAQ 1 ==========-->
+                <div class="faq__content skills__close">
+                    <div class="faq__header">
+                        <div class="faq__line"></div>
+                            <div class="faq__headers">
+                                <h1 class="faq__question">What is Bookmark?</h1>
+                                <i class="uil uil-angle-down faq__icon"></i>
+                            </div>
+                        </div>
+                        
+                    <div class="faq__list grid">
+                        <div class="faq__contents">
+                            <p class="faq__data">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
+                                justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--=========== FAQ 2 ==========-->
+                <div class="faq__content skills__close">
+                    <div class="faq__header">
+                        <div class="faq__line"></div>
+                        <div class="faq__headers">
+                        <h1 class="faq__question">How can I request a new browser?</h1>
+                        <i class="uil uil-angle-down faq__icon"></i>
+                    </div>
+                    </div>
+                        
+                    <div class="faq__list grid">
+                        <div class="faq__contents">
+                            <p class="faq__data">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. 
+                                Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, 
+                                ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. 
+                                Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--=========== FAQ 3 ==========-->
+                <div class="faq__content skills__close">
+                    <div class="faq__header">
+                        <div class="faq__line"></div>
+                        <div class="faq__headers">
+                        <h1 class="faq__question">Is there a mobile app?</h1>
+                        <i class="uil uil-angle-down faq__icon"></i>
+                    </div>
+                    </div>
+                        
+                    <div class="faq__list grid">
+                        <div class="faq__contents">
+                            <p class="faq__data">Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum 
+                                urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed 
+                                sollicitudin ex et ultricies bibendum.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--=========== FAQ 4 ==========-->
+                <div class="faq__content skills__close">
+                    <div class="faq__header">
+                        <div class="faq__line"></div>
+                        <div class="faq__headers">
+                        <h1 class="faq__question">What about other Chromium browsers?</h1>
+                        <i class="uil uil-angle-down faq__icon"></i>
+                    </div>
+                </div>
+                        
+                    <div class="faq__list grid">
+                        <div class="faq__contents">
+                            <p class="faq__data">Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
+                                vitae neque eget nisl gravida pellentesque non ut velit.</p>
+
+                        </div>
+                    </div>
+                    <br><div class="faq__line"></div>
+
+                    <br><br><div class="bottom__button"><button class="button__chrome more__icon">More info</button></div>
+                </div>
+
+
+    </section>
+    </main>
+    <!--=========== FOOTER 1 ==========-->
+    <section class="footer" id="contact">
+        
+            <div class="footer__bg">
+                <p class="footer__subtitle">35,000+ already joined</p>
+                <h1 class="footer__title">Stay up-to-date with what we’re doing</h1>
+                <div class="footer__echos">
+                <input placeholder="Enter your email address" type="text" class="footer__input">
+                <button class="footer__button">Contact Us</button>
+            </div>
+            </div>
+        
+    </section>
+
+    <!--=========== FOOTER 2 ==========-->
+    <section class="footer__second" id="footer__second">
+        <div class="footer-second__container container grid">
+            <div class="footer-second__bg">
+                <div class="footer__flex">
+                <div class="footer-second__link">
+                <img src="images/logo-bookmark.svg" alt="" class="footer-second__logo">
+                <div class="footer-second__linkk">
+                <a href=""><h3 class="footer-second__links">Features</h3></a>
+                <a href=""><h3 class="footer-second__links">Pricing</h3></a>
+                <a href=""><h3 class="footer-second__links">Contact</h3></a>
+            </div>
+        </div>
+                <div class="social__links">
+                    <a href="#" class="social__link"><i class="uil uil-facebook social__icon"></i></a>
+                    <a href="#" class="social__link"><i class="uil uil-twitter social__icon"></i></a>
+                    <a href="#" class="social__link"><i class="uil uil-instagram-alt social__icon"></i></a>
+                </div>
+            </div>
+                <p class="footer__copy">&#169; Agony. All right reserved</p>
+            
+        </div>
+    </div>
+    </section>
+
+    <!--=========== MAIN JS ==========-->
+    <script src="main.js"></script>
+</body>
+</html>
