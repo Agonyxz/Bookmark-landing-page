@@ -229,6 +229,10 @@ img {
 }
 
 /*----------- HOME ----------*/
+.home__container {
+        padding-top: 8rem;
+}
+
 .home__content {
     margin: auto;
     text-align: center;
